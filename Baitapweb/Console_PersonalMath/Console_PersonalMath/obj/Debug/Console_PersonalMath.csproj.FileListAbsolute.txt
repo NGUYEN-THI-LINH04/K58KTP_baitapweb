@@ -1,0 +1,9 @@
+D:\BTThayCop\Baitapweb\Console_PersonalMath\Console_PersonalMath\bin\Debug\Console_PersonalMath.exe
+D:\BTThayCop\Baitapweb\Console_PersonalMath\Console_PersonalMath\bin\Debug\Console_PersonalMath.pdb
+D:\BTThayCop\Baitapweb\Console_PersonalMath\Console_PersonalMath\bin\Debug\PersonalMathLib.dll
+D:\BTThayCop\Baitapweb\Console_PersonalMath\Console_PersonalMath\bin\Debug\PersonalMathLib.pdb
+D:\BTThayCop\Baitapweb\Console_PersonalMath\Console_PersonalMath\obj\Debug\Console_PersonalMath.csproj.AssemblyReference.cache
+D:\BTThayCop\Baitapweb\Console_PersonalMath\Console_PersonalMath\obj\Debug\Console_PersonalMath.csproj.CoreCompileInputs.cache
+D:\BTThayCop\Baitapweb\Console_PersonalMath\Console_PersonalMath\obj\Debug\Console_.2A699812.Up2Date
+D:\BTThayCop\Baitapweb\Console_PersonalMath\Console_PersonalMath\obj\Debug\Console_PersonalMath.exe
+D:\BTThayCop\Baitapweb\Console_PersonalMath\Console_PersonalMath\obj\Debug\Console_PersonalMath.pdb

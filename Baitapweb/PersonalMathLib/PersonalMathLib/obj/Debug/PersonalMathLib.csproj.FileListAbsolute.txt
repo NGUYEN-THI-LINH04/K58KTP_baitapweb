@@ -1,0 +1,6 @@
+D:\BTThayCop\Baitapweb\PersonalMathLib\PersonalMathLib\bin\Debug\PersonalMathLib.dll
+D:\BTThayCop\Baitapweb\PersonalMathLib\PersonalMathLib\bin\Debug\PersonalMathLib.pdb
+D:\BTThayCop\Baitapweb\PersonalMathLib\PersonalMathLib\obj\Debug\PersonalMathLib.csproj.AssemblyReference.cache
+D:\BTThayCop\Baitapweb\PersonalMathLib\PersonalMathLib\obj\Debug\PersonalMathLib.csproj.CoreCompileInputs.cache
+D:\BTThayCop\Baitapweb\PersonalMathLib\PersonalMathLib\obj\Debug\PersonalMathLib.dll
+D:\BTThayCop\Baitapweb\PersonalMathLib\PersonalMathLib\obj\Debug\PersonalMathLib.pdb

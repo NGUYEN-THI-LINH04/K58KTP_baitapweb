@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Personal Math Web</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        input, button {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        #resultTable {
+            margin-top: 15px;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 700px;
+        }
+
+            #resultTable th, #resultTable td {
+                border: 1px solid #ccc;
+                padding: 8px;
+                text-align: left;
+            }
+
+            #resultTable th {
+                background-color: #f0f0f0;
+            }
+
+        #errorMessage {
+            margin-top: 15px;
+            color: red;
+            font-weight: bold;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h2>🔹 Web tính toán UCLN và BCNN</h2>
+    <p>Nhập số A: <input type="text" id="txtA"></p>
+    <p>Nhập số B: <input type="text" id="txtB"></p>
+    <button onclick="sendData()">Tính toán</button>
+
+    <div id="errorMessage"></div>
+
+    <table id="resultTable" style="display: none;">
+        <thead>
+            <tr><th>Thông tin</th><th>Giá trị</th></tr>
+        </thead>
+        <tbody id="resultBody"></tbody>
+    </table>
+
+    <script>
+        function sendData() {
+            var a = document.getElementById("txtA").value;
+            var b = document.getElementById("txtB").value;
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "api.aspx", true);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    try {
+                        var res = JSON.parse(xhr.responseText);
+
+                        // Nếu có lỗi trong chuỗi kết quả
+                        if (res.KetQua && res.KetQua.startsWith("Lỗi")) {
+                            document.getElementById("resultTable").style.display = "none";
+                            document.getElementById("errorMessage").innerText = "❌ " + res.KetQua;
+                            return;
+                        }
+
+                        // Hiển thị kết quả gộp
+                        var html = `
+                                <tr><td>Kết quả</td><td><pre>${res.KetQua}</pre></td></tr>
+                            `;
+
+                        document.getElementById("resultBody").innerHTML = html;
+                        document.getElementById("resultTable").style.display = "table";
+                        document.getElementById("errorMessage").innerText = "";
+
+                    } catch (e) {
+                        document.getElementById("errorMessage").innerText = "❌ Không thể phân tích phản hồi từ máy chủ.";
+                        document.getElementById("resultTable").style.display = "none";
+                    }
+                }
+            };
+
+            xhr.send("a=" + encodeURIComponent(a) + "&b=" + encodeURIComponent(b));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\PersonalMathLib.dll
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\PersonalMathLib.pdb
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsF.EA766B00.Up2Date
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+D:\BTThayCop\Baitapweb\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb

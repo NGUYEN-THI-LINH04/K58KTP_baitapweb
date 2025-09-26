@@ -1,0 +1,10 @@
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\bin\PersonalWebApp.dll.config
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\bin\PersonalWebApp.dll
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\bin\PersonalWebApp.pdb
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\bin\PersonalMathLib.dll
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\bin\PersonalMathLib.pdb
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\obj\Release\PersonalWebApp.csproj.AssemblyReference.cache
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\obj\Release\PersonalWebApp.csproj.CoreCompileInputs.cache
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\obj\Release\Personal.CAD93096.Up2Date
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\obj\Release\PersonalWebApp.dll
+D:\BTThayCop\Baitapweb\PersonalWebApp\PersonalWebApp\obj\Release\PersonalWebApp.pdb
